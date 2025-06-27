@@ -5,7 +5,7 @@
 
 baseD=8;
 baseH=1;
-neckD= 3.4pr;//thin value -> 2.85;
+neckD= 3.5;//thin value -> 2.85;
 neckH=5;
 neckDH= 2.75;//thin value -> 2.25;
 $fn=60;
