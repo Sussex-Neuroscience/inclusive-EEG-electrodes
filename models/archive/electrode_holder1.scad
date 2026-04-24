@@ -1,6 +1,6 @@
 //use <C:\Users\Andre Maia Chagas\Documents\OpenSCAD\libraries\threadlib\threadlib.scad>
 
-use </home/andre/OpenScad/libraries/threadlib/threadlib.scad>
+//use </home/andre/OpenScad/libraries/threadlib/threadlib.scad>
 
 include <./electrodes.scad>
 
@@ -14,13 +14,13 @@ clipHD = 26;
 
 
 //information for the original clip
-gel_thread_specs= thread_specs("M12-ext");
-P = gel_thread_specs[0];
-Dsupport = gel_thread_specs[2];
-gelBD = electrodeOD+5;
-gelCD = Dsupport;
-gelCHole = electrodeOD-cupD;
-gelH = 12;
+//gel_thread_specs= thread_specs("M12-ext");
+//P = gel_thread_specs[0];
+//Dsupport = gel_thread_specs[2];
+//gelBD = electrodeOD+5;
+//gelCD = Dsupport;
+//gelCHole = electrodeOD-cupD;
+//gelH = 12;
 
 //information for the holder itself
 holderH=5;
