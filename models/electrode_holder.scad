@@ -1,6 +1,6 @@
-use <C:\Users\Andre Maia Chagas\Documents\OpenSCAD\libraries\threadlib\threadlib.scad>
+//use <C:\Users\Andre Maia Chagas\Documents\OpenSCAD\libraries\threadlib\threadlib.scad>
 
-include <C:\Users\Andre Maia Chagas\Documents\GitHub\sussex\inclusive-EEG-electrodes\models\electrodes.scad>
+include <electrodes.scad>
 
 tipL = 20;
 clipL = 60-2*tipL;//80;
@@ -14,11 +14,11 @@ clipHD = 26;
 electrodOD1 = electrodeOD_large; 
 
 //information for the original clip
-gel_thread_specs= thread_specs("M12-ext");
-P = gel_thread_specs[0];
-Dsupport = gel_thread_specs[2];
+//gel_thread_specs= thread_specs("M12-ext");
+//P = gel_thread_specs[0];
+//Dsupport = gel_thread_specs[2];
 gelBD = electrodeOD+5;
-gelCD = Dsupport;
+//gelCD = Dsupport;
 gelCHole = electrodeOD-cupD;
 gelH = 12;
 
